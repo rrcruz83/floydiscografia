@@ -1,0 +1,61 @@
+/*index.html*/
+@font-face {
+    font-family: pinkfont;
+    src: url(fonts/floyd.TTF);
+}
+
+header {
+    background: black;
+    font-family: pinkfont;
+}
+
+.caixa-navegacao {
+    background-image: url(img/img-caixa-navegacao.jpg);
+    background-size: 100% 300px;
+    background-position: center;
+    text-align: center;
+    width: auto;
+    height: 300px;
+    margin: auto;
+}
+
+.img-logo {
+    float: center;
+    width: 260px;
+}
+
+.titulo-logo {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    color: #FF0000;
+    font-size: 50px
+}
+
+nav ul {
+    position: relative;
+    top: 10px;
+}
+
+ul li {
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+}
+
+li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: #FF0000;
+}
+
+@media screen and (min-width: 1200px) {
+    .caixa-navegacao {
+        background-size: 75% 350px;
+    }
+    
+}
