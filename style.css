@@ -1,13 +1,13 @@
 /*index.html*/
 @font-face {
-    font-family: pinkfont;
-    src: url(fonts/floyd.TTF);
+    font-family: pinkfloyd;
+    src: url(fonts/pinkfloyd.ttf);
 }
 
 header {
-    background: black;
-    font-family: pinkfont;
-    border-bottom: 5px solid black;
+    background: url("img/background.jpg");
+    font-family: pinkfloyd, 'Montserrat', sans-serif;
+    border-bottom: 1px solid black;
 }
 
 .caixa-navegacao {
@@ -15,27 +15,31 @@ header {
     background-size: 100% 300px;
     background-position: center;
     text-align: center;
-    width: auto;
-    height: 300px;
+    width: 940px;
     margin: auto;
+    height: 300px;
 }
 
 .img-logo {
-    float: center;
+    position: absolute;
     width: 260px;
+    background: linear-gradient(rgba(8, 8, 8, 0.8), rgba(252, 251, 251, 0.8)) ;
+    border-radius: 300px;
+    box-shadow: 100px 5px 25px rgba(255, 255, 255, 0.7);
 }
 
-.titulo-logo {
-    position: absolute;
-    top: 120px;
-    left: 50%;
-    color: #FF0000;
-    font-size: 50px
+.img-logo1 {
+    position: relative;
+    top: 50px;
+    right: 5px;
+    width: 300px;
 }
 
 nav ul {
     position: relative;
-    top: 10px;
+    width: 940px;
+    margin: auto;
+    top: 90px;
 }
 
 ul li {
@@ -54,30 +58,109 @@ li a:hover {
     color: #FF0000;
 }
 
-footer {
-    background: url("img/footer.jpg");
-    color: aliceblue;
-    font-family: pinkfont;
+main {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(rgba(255,255,255,1) 70%, rgba(0,0,0,0.3)); 
+}
+
+.logo-welcome {
     text-align: center;
-    border-top: 5px solid black;
+    width: 93px;
+}
+
+.apresentacao{
+    width: 940px;
+    margin: auto;
+    padding: 15px;
+    text-align: justify;
+    font-weight: b;
+}
+
+.apresentacao p {
+    margin: 10px 10px;
+}
+
+.apresentacao p::first-letter {
+    font-size: 2em;
+}
+
+.apresentacao em {
+    font-weight: bold;
+}
+
+.albuns {
+    width: 940px;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.albuns img {
+    width: 8.9%;
+    padding: 3px;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    width: 940px;
+    margin: auto;
+}
+
+.img-bio1 {
+    float: left;
+    width: 18%;
+    padding: 5px 10px;
+}
+
+.img-bio2 {
+    float: right;
+    width: 40%;
+    padding: 5px 10px;
+}
+
+.descricao-img-bio {
+    font-size: 0.6em;
+    
+}
+
+.mini-bio {
+    width: 940px;
+    margin: auto;
+    padding: 15px;
+    text-align: justify;
+}
+
+.mini-bio p {
+    margin: 10px 10px;
+}
+
+.mini-bio p::first-letter {
+    font-size: 2em;
+}
+
+footer {
+    background: url("img/background.jpg");
+    color: aliceblue;
+    font-family: pinkfloyd, 'Montserrat', sans-serif;
+    text-align: center;
+    border-top: 1px solid black;
     width: 100%;
-    position: absolute;
     bottom: 0;
+    margin: auto;
 }
 
 .logo-rodape {
-    width: 50px;
-    margin-top: 15px;
+    position: relative;
+    top: -16px;
+    right: 20px;
+    transform: rotate(22deg);
+    width: 100px;
 }
 
 .copyright {
     position: relative;
-    top: -30px;
-}
-
-@media screen and (min-width: 1200px) {
-    .caixa-navegacao {
-        background-size: 75% 350px;
-    }
-    
+    top: -10px;
+    right: 20px;
+    padding: 0 0 10px 0;
 }
