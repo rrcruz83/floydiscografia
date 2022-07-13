@@ -1,41 +1,42 @@
 /*index.html*/
 @font-face {
-    font-family: pinkfont;
-    src: url(fonts/floyd.TTF);
+    font-family: pinkfloyd;
+    src: url(fonts/pinkfloyd.ttf);
 }
 
 header {
     background: black;
-    font-family: pinkfont;
+    font-family: pinkfloyd, 'Montserrat', sans-serif;
     border-bottom: 5px solid black;
 }
 
 .caixa-navegacao {
     background-image: url(img/img-caixa-navegacao.jpg);
-    background-size: 100% 300px;
+    background-size: 940px 300px;
     background-position: center;
     text-align: center;
-    width: auto;
     height: 300px;
     margin: auto;
 }
 
 .img-logo {
-    float: center;
+    position: absolute;
     width: 260px;
+    background: linear-gradient(rgba(8, 8, 8, 0.8), rgba(252, 251, 251, 0.8)) ;
+    border-radius: 300px;
+    box-shadow: 100px 5px 25px rgba(252, 251, 251, 0.7);
 }
 
-.titulo-logo {
-    position: absolute;
-    top: 120px;
-    left: 50%;
-    color: #FF0000;
-    font-size: 50px
+.img-logo1 {
+    position: relative;
+    top: 50px;
+    right: 5px;
+    width: 300px;
 }
 
 nav ul {
     position: relative;
-    top: 10px;
+    top: 90px;
 }
 
 ul li {
@@ -58,6 +59,12 @@ main {
     font-family: 'Montserrat', sans-serif; 
 }
 
+.logo-welcome {
+    text-align: center;
+    width: 93px;
+
+}
+
 .apresentacao{
     width: 940px;
     margin: auto;
@@ -70,20 +77,35 @@ main {
     margin: 10px;
 }
 
+.apresentacao em {
+    font-weight: bold;
+}
+
 .albuns {
     width: 940px;
     margin: auto;
 }
 
 .albuns img {
-    width: 10%;
+    width: 8.9%;
     padding: 3px;
 }
 
-.img-bio {
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.img-bio1 {
     float: left;
+    width: 18%;
+    padding: 5px 10px;
+}
+
+.img-bio2 {
+    float: right;
     width: 40%;
-    padding: 5px 5px;
+    padding: 5px 10px;
 }
 
 .descricao-img-bio {
@@ -107,23 +129,27 @@ main {
 footer {
     background: url("img/footer.jpg");
     color: aliceblue;
-    font-family: pinkfont;
+    font-family: pinkfloyd, 'Montserrat', sans-serif;
     text-align: center;
-    border-top: 5px solid black;
+    border-top: 1px solid black;
     width: 100%;
-    position: relative;
     bottom: 0;
     margin: auto;
 }
 
 .logo-rodape {
-    width: 50px;
-    margin-top: 15px;
+    position: relative;
+    top: -16px;
+    right: 20px;
+    transform: rotate(22deg);
+    width: 100px;
 }
 
 .copyright {
     position: relative;
-    top: -30px;
+    top: -10px;
+    right: 20px;
+    padding: 0 0 10px 0;
 }
 
 @media screen and (min-width: 1200px) {
