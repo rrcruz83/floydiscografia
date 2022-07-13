@@ -54,6 +54,27 @@ li a:hover {
     color: #FF0000;
 }
 
+footer {
+    background: url("img/footer.jpg");
+    color: aliceblue;
+    font-family: pinkfont;
+    text-align: center;
+    border-top: 5px solid black;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.logo-rodape {
+    width: 50px;
+    margin-top: 15px;
+}
+
+.copyright {
+    position: relative;
+    top: -30px;
+}
+
 @media screen and (min-width: 1200px) {
     .caixa-navegacao {
         background-size: 75% 350px;
