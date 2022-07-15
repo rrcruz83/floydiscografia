@@ -35,13 +35,30 @@
     font-size: 30px;
 }
 
+.voltar {
+    width: 940px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 15px;
+    font-size: 25px;
+    font-family: pinkfloyd;
+}
+
+.voltar a {
+    color: black;
+    text-decoration: none
+}
+
+.voltar a:hover {
+    color: red;
+}
+
 /*Albuns .*/
 
 .albuns {
     width: 940px;
     margin: auto;
     text-align: center;
-    padding: 15px;
     padding: 50px;
 }
 
