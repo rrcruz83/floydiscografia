@@ -63,6 +63,8 @@
 }
 
 .albuns img {
+    width: 250px;
+    height: 250px;
     padding: 3px;
     border-radius: 25% 25%;
 }
