@@ -35,3 +35,18 @@
     font-size: 30px;
 }
 
+/*Albuns .*/
+
+.albuns {
+    width: 940px;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    padding: 50px;
+}
+
+.albuns img {
+    padding: 3px;
+    border-radius: 25% 25%;
+}
+
