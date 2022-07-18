@@ -3,6 +3,7 @@
 .catalogo {
     width: 940px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .caixa-catalogo li {
