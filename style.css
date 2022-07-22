@@ -17,31 +17,29 @@ header {
     width: 940px;
     margin: auto;
     height: 300px;
-}
-
-.logo {
-    position: relative;
+    text-align: center;
 }
 
 .img-logo {
-    position: absolute;
-    left: 345px;
     width: 260px;
     background: linear-gradient(rgba(8, 8, 8, 0.8), rgba(252, 251, 251, 0.8)) ;
     border-radius: 300px;
     box-shadow: 100px 5px 25px rgba(255, 255, 255, 0.7);
 }
 
-.img-logo1 {
+.nome-logo {
+    color: rgb(202, 33, 4);
     position: absolute;
-    left: 35.2%;
-    top: 50px;
-    width: 300px;
+    top: 90px;
+    margin: 0 0 0 -2px;
+    font-weight: bold;
+    font-size: 80px;
+    text-shadow: 25px 15px 5px rgba(0,0,0,0.5);
 }
 
 nav ul {
     text-align: center;
-    position: relative;
+    position: absolute;
     width: 940px;
     margin: auto;
     top: 270px;
@@ -59,7 +57,7 @@ li a {
 }
 
 li a:hover {
-    color: #FF0000;
+    color: rgb(202, 33, 4);
 }
 
 main {
