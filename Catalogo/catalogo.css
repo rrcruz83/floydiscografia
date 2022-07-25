@@ -70,3 +70,35 @@
     border-radius: 25% 25%;
 }
 
+@media screen and (max-width: 480px) {
+    .catalogo, .voltar{
+        width: auto;
+    }
+
+    .caixa-catalogo li {
+        margin-left: auto;
+        margin-right: auto;  
+    }
+
+    .caixa-catalogo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .caixa-catalogo h2 {
+        font-size: 15px;
+    }
+
+    .voltar {
+        font-size: 15px;
+    }
+
+    .albuns {
+        width: auto;
+        padding: 10px;
+    }
+    .albuns img {
+        width: 100px;
+        height: 100px;
+    }
+}
