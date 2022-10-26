@@ -1,7 +1,8 @@
-/*index.html*/
+@import url("catalogo.css");
+
 @font-face {
     font-family: pinkfloyd;
-    src: url(fonts/pinkfloyd.ttf);
+    src: url(../fonts/pinkfloyd.ttf);
 }
 
 header {
@@ -11,7 +12,7 @@ header {
 }
 
 .caixa-navegacao {
-    background-image: url(img/img-caixa-navegacao.jpg);
+    background-image: url(../img/img-caixa-navegacao.jpg);
     background-size: 100% 300px;
     background-position: center;
     width: 940px;
@@ -117,7 +118,7 @@ h1 {
 }
 
 footer {
-    background: url("img/background.jpg");
+    background: url("../img/background.jpg");
     color: aliceblue;
     font-family: pinkfloyd, 'Montserrat', sans-serif;
     text-align: center;
