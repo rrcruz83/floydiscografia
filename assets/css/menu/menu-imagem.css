@@ -1,0 +1,5 @@
+.menu__imagem::before{
+    content: "\2630";
+    font-size: 3em;
+    color: white
+}
