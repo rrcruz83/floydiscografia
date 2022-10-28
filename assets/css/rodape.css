@@ -1,0 +1,12 @@
+.rodape {
+    font-family: var(--fonte-principal);
+    background-image: url(../img/background.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 0 0 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}

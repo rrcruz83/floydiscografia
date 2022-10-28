@@ -14,6 +14,9 @@
 @import url("carrossel.css");
 @import url("carrossel/carrossel-titulo.css");
 @import url("carrossel/swiper.css");
+@import url("rodape.css");
+@import url("rodape/rodape-logo.css");
+@import url("rodape/rodape-copyright.css");
 
 @font-face {
     font-family: pinkfloyd;

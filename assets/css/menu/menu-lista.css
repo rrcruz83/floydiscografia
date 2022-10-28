@@ -1,7 +1,6 @@
 .menu__lista {
     background-image: url("../../img/background.jpg");
-    
-  
+    z-index: 9999;
     display: none;
     padding: 1em;
     color: var(--branco);
