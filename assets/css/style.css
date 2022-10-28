@@ -10,6 +10,10 @@
 @import url("banner.css");
 @import url("banner/banner-imagem.css");
 @import url("banner/banner-titulo.css");
+@import url("catalogo/catalogo-container.css");
+@import url("carrossel.css");
+@import url("carrossel/carrossel-titulo.css");
+@import url("carrossel/swiper.css");
 
 @font-face {
     font-family: pinkfloyd;
@@ -18,6 +22,7 @@
 
 :root {
     --fonte-principal: pinkfloyd, 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
 
     --branco: #FFFFFF;
     --preto: #000000;
@@ -26,3 +31,5 @@
 header {
     font-family: var(--fonte-principal);
 }
+
+

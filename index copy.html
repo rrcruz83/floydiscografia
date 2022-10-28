@@ -7,9 +7,15 @@
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
 
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,200&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <header>
@@ -48,12 +54,129 @@
                     </li>
                 </ul>
             </div>
-            
-            <section class="banner">
-                <div class="banner__imagem"></div>
-                <h2 class="banner__titulo">Floydiscografia</h2>
-            </section>
         </header>
+                    
+        <section class="banner">
+            <div class="banner__imagem">
+                <h1 class="banner__titulo">Floydiscografia</h1>
+            </div>
+        </section>
 
+        <section class="catalogo">
+            <div class="catalogo__container">
+
+            </div>
+        </section>
+
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Albuns Solos</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <a href="sydbarrett.html">
+                            <img src="assets/img/SydBarrett.jpeg" alt="Imagem de Syd Barrett">
+                            <h3 class="swiper-title">Syd Barrett</h3>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="rogerwaters.html">
+                            <img src="assets/img/RogerWaters.jpeg" alt="Imagem de Roger Waters">
+                            <h3 class="swiper-title">Roger Waters</h3>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="davidgilmour.html">
+                            <img src="assets/img/DavidGilmour.jpeg" alt="Imagem de David Gilmour">
+                            <h3 class="swiper-title">David Gilmour</h3>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="nickmason.html">
+                            <img src="assets/img/NickMason.jpeg" alt="Imagem de Nick Mason">
+                            <h3 class="swiper-title">Nick Mason</h3>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="richardwright.html">
+                            <img src="assets/img/richard.jpeg" alt="Imagem de Richard Wright">
+                            <h3 class="swiper-title">Richard Wright</h3>
+                        </a>
+                    </div>
+                </div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+        </section>
+
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Favoritos</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="assets/img/gates.jpeg" alt="Imagem do Album The Piper at the Gates of Dawn ">
+                            <h3 class="swiper-title">The Piper at the Gates of Dawn</h3>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="assets/img/darkside.jpeg" alt="Imagem do Album Dark Side Of The Moon">
+                            <h3 class="swiper-title">Dark Side Of The Moon</h3>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="assets/img/wishyouwerehere.jpeg" alt="Imagem do Album Wish You Were Here">
+                            <h3 class="swiper-title">Wish You Were Here</h3>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="assets/img/animals.jpeg" alt="Imagem do Album Animals">
+                            <h3 class="swiper-title">Animals</h3>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="assets/img/divisionbell.jpeg" alt="Imagem do Division Bell">
+                            <h3 class="swiper-title">Division Bell</h3>
+                        </a>
+                    </div>
+                </div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script type="module">
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+          </script>
+          
     </body>
 </html>

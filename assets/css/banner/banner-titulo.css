@@ -1,7 +1,8 @@
 .banner__titulo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 15vh;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
-    text-align: center;
-    color: var(--branco);
-    margin-top: -30px;
-    font-size: 2em;
+    width: 100%;
 }

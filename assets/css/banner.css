@@ -1,0 +1,5 @@
+.banner {
+    font-family: var(--fonte-principal);
+    font-size: 1.5em;
+    color: var(--branco);
+}

@@ -1,0 +1,5 @@
+.carrossel {
+    padding: 0 0.5em ;
+    text-transform: uppercase;
+    font-family: var(--fonte-secundaria);
+}
