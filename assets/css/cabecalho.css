@@ -6,5 +6,6 @@
     align-items: center;
     padding: 1em;
     position: relative;
+    border-bottom: 1px solid var(--branco);
 }
 

@@ -7,6 +7,9 @@
 @import url("menu/menu-lista.css");
 @import url("menu/menu-item.css");
 @import url("menu/menu-link.css");
+@import url("banner.css");
+@import url("banner/banner-imagem.css");
+@import url("banner/banner-titulo.css");
 
 @font-face {
     font-family: pinkfloyd;
@@ -15,7 +18,7 @@
 
 :root {
     --fonte-principal: pinkfloyd, 'Montserrat', sans-serif;
-    
+
     --branco: #FFFFFF;
     --preto: #000000;
 }
