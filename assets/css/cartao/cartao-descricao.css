@@ -1,0 +1,19 @@
+.cartao__descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em ;
+}
+
+.descricao {
+    margin-right: 1.5em;
+}
+
+.descricao__titulo {
+    padding: 1em 0;
+    color: var(--preto);
+    font-weight: 700;
+}
+
+.descricao__texto {
+    font-size: 14px;
+}

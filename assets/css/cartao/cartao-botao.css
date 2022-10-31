@@ -1,0 +1,6 @@
+.cartao__botao {
+    background-color: var(--preto);
+    text-align: center;
+    border-radius: 5px;
+    padding: 1em;
+}

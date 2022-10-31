@@ -11,6 +11,14 @@
 @import url("banner/banner-imagem.css");
 @import url("banner/banner-titulo.css");
 @import url("banner/banner-pesquisa.css");
+@import url("cartao.css");
+@import url("cartao/cartao-container.css");
+@import url("cartao/cartao-imagem.css");
+@import url("cartao/cartao-botao.css");
+@import url("cartao/cartao-titulo.css");
+@import url("cartao/cartao-descricao.css");
+@import url("cartao/cartao-link.css");
+
 @import url("catalogo/catalogo-container.css");
 @import url("carrossel.css");
 @import url("carrossel/carrossel-titulo.css");
@@ -27,7 +35,7 @@
 :root {
     --fonte-principal: pinkfloyd, 'Montserrat', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
-
+    --background-secundario: #4e4c4c;
     --branco: #FFFFFF;
     --preto: #000000;
 }
