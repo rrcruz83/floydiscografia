@@ -1,0 +1,9 @@
+.catalogo__titulo {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1.5em;
+    color: var(--branco);
+    font-weight: 300;
+    width: 100%;
+    font-size: 1.5em;
+    font-family: var(--fonte-principal);
+}

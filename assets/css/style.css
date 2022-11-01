@@ -1,4 +1,3 @@
-@import url("catalogo.css");
 @import url("cabecalho.css");
 @import url("cabecalho/cabecalho-logo.css");
 @import url("menu/menu-check.css");
@@ -28,6 +27,14 @@
 @import url("carrossel.css");
 @import url("carrossel/carrossel-titulo.css");
 @import url("carrossel/swiper.css");
+@import url("catalogo.css");
+@import url("catalogo/catalogo-frase.css");
+@import url("catalogo/catalogo-lista.css");
+@import url("catalogo/catalogo-item.css");
+@import url("catalogo/catalogo-link.css");
+@import url("catalogo/catalogo-imagem.css");
+@import url("catalogo/catalogo-titulo.css");
+
 @import url("rodape.css");
 @import url("rodape/rodape-logo.css");
 @import url("rodape/rodape-copyright.css");
