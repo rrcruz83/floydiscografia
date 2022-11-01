@@ -9,44 +9,68 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,200&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <header>
-            <div class="caixa-navegacao">
+            <div class="cabecalho">
+                <img class="cabecalho__logo" src="assets/img/img-logo.jpeg" alt="Logo Floydiscografia">
 
-                <div class="logo">
-                    <img class="img-logo" src="assets/img/img-logo.jpeg" alt="Logo Floydiscografia">
-                    <h1 class="nome-logo">pink floyd</h1>
-                <div>
-
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="catalogo.html">Catálogo</a></li>
-                    </ul>
-                </nav>
+                <input class="menu__check" type="checkbox" id="menu">
+                <label for="menu">
+                    <div class="menu__imagem"></div>
+                </label>
+                <ul class="menu__lista">
+                    <li class="menu__item">
+                        <a class="menu__link" href="index copy.html">Home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="catalogo.html">
+                            <h2 class="menu__titulo">Minha Coleção</h2>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunsoficiais.html">Oficiais</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunssoundtracks.html">Soundtracks</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunslive.html">Live</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunscoletaneas.html">Coletâneas</a>
+                    </li>
+                    
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunssolos.html">Solos</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunsboxsets.html">Box Sets</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunsroios.html">Roios e Bootlegs</a>
+                    </li>
+                </ul>
             </div>
         </header>
+               
         <main>
-            <h1>"One of these days I'm going to cut you into little pieces..."</h1>
-            <div class="albuns">
-                <img src="assets/img/Sports.jpeg" alt="Capa do album 1981 - Nick Mason's Fictitious Sports">
-                <img src="assets/img/profiles.jpeg" alt="Capa do album 1985 - Profiles">
-                <img src="assets/img/white.jpeg" alt="Capa do album 1987 - White of the Eye">
-                <img src="assets/img/Unattended.jpeg" alt="Capa do album 2018 - Unattended Luggage">
-                <img src="assets/img/saucerful (band).jpeg" alt="Capa do album 2020 - Nick Mason's Saucerful Of Secrets Live at the Roundhouse">
-            </div>
-            <div class="voltar">
-                <a href="../albunssolos.html">&#8672; voLtar</a>
+
+            <div class="catalogo">
+                <h2 class="catalogo__frase">"One of these days I'm going to cut you into little pieces..."</h2>
+                <a href="#"><img class="catalogo__album" src="assets/img/Sports.jpeg" alt="Capa do album 1981 - Nick Mason's Fictitious Sports"></a>
+                <a href="#"><img class="catalogo__album" src="assets/img/profiles.jpeg" alt="Capa do album 1985 - Profiles"></a>
+                <a href="#"><img class="catalogo__album" src="assets/img/white.jpeg" alt="Capa do album 1987 - White of the Eye"></a>
+                <a href="#"><img class="catalogo__album" src="assets/img/Unattended.jpeg" alt="Capa do album 2018 - Unattended Luggage"></a>
+                <a href="#"><img class="catalogo__album" src="assets/img/saucerful (band).jpeg" alt="Capa do album 2020 - Nick Mason's Saucerful Of Secrets Live at the Roundhouse"></a>
             </div>
         </main>
         <footer>
             <div class="rodape">
-                <img class="logo-rodape" src="assets/img/pigs-logo.jpeg">
-                <p class="copyright">produzido por rr Dev&copy</p>
+                <img class="rodape__logo" src="assets/img/pigs-logo.jpeg">
+                <p class="rodape__copyright">produzido por rr Dev&copy</p>
             </div>
         </footer>
     </body>
 </html>
-

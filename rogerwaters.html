@@ -9,45 +9,69 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,200&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <header>
-            <div class="caixa-navegacao">
+            <div class="cabecalho">
+                <img class="cabecalho__logo" src="assets/img/img-logo.jpeg" alt="Logo Floydiscografia">
 
-                <div class="logo">
-                    <img class="img-logo" src="assets/img/img-logo.jpeg" alt="Logo Floydiscografia">
-                    <h1 class="nome-logo">pink floyd</h1>
-                <div>
-
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="catalogo.html">Catálogo</a></li>
-                    </ul>
-                </nav>
+                <input class="menu__check" type="checkbox" id="menu">
+                <label for="menu">
+                    <div class="menu__imagem"></div>
+                </label>
+                <ul class="menu__lista">
+                    <li class="menu__item">
+                        <a class="menu__link" href="index copy.html">Home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="catalogo.html">
+                            <h2 class="menu__titulo">Minha Coleção</h2>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunsoficiais.html">Oficiais</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunssoundtracks.html">Soundtracks</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunslive.html">Live</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunscoletaneas.html">Coletâneas</a>
+                    </li>
+                    
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunssolos.html">Solos</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunsboxsets.html">Box Sets</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunsroios.html">Roios e Bootlegs</a>
+                    </li>
+                </ul>
             </div>
         </header>
+               
         <main>
-            <h1>"Mother do you think they'll like the song?"</h1>
-            <div class="albuns">
-                <img src="assets/img/thebody.jpeg" alt="Capa do album 1970 - The Body">
-                <img src="assets/img/prosandcons.jpeg" alt="Capa do album 1984 - The Pros And Cons Of Hitch Hiking">
-                <img src="assets/img/wind.jpeg" alt="Capa do album 1986 - When The Wind Blows">
-                <img src="assets/img/radiokaos.jpeg" alt="Capa do album 1987 - Radio K.A.O.S">
-                <img src="assets/img/amused.jpeg" alt="Capa do album 1992 - Amused To Death">
-                <img src="assets/img/lifeyourealywant.jpeg" alt="Capa do album 2017 - is this the life you really want">
-            </div>
-            <div class="voltar">
-                <a href="../albunssolos.html">&#8672; voLtar</a>
+
+            <div class="catalogo">
+                <h2 class="catalogo__frase">"Mother do you think they'll like the song?"</h2>
+                <a href="#"><img class="catalogo__album" src="assets/img/thebody.jpeg" alt="Capa do album 1970 - The Body"></a>
+                <a href="#"><img class="catalogo__album" src="assets/img/prosandcons.jpeg" alt="Capa do album 1984 - The Pros And Cons Of Hitch Hiking"></a>
+                <a href="#"><img class="catalogo__album" src="assets/img/wind.jpeg" alt="Capa do album 1986 - When The Wind Blows"></a>
+                <a href="#"><img class="catalogo__album" src="assets/img/radiokaos.jpeg" alt="Capa do album 1987 - Radio K.A.O.S"></a>
+                <a href="#"><img class="catalogo__album" src="assets/img/amused.jpeg" alt="Capa do album 1992 - Amused To Death"></a>
+                <a href="#"><img class="catalogo__album" src="assets/img/lifeyourealywant.jpeg" alt="Capa do album 2017 - is this the life you really want"></a>
             </div>
         </main>
         <footer>
             <div class="rodape">
-                <img class="logo-rodape" src="assets/img/pigs-logo.jpeg">
-                <p class="copyright">produzido por rr Dev&copy</p>
+                <img class="rodape__logo" src="assets/img/pigs-logo.jpeg">
+                <p class="rodape__copyright">produzido por rr Dev&copy</p>
             </div>
         </footer>
     </body>
 </html>
-
