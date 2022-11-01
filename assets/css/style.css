@@ -4,6 +4,7 @@
 @import url("menu/menu-check.css");
 @import url("menu/menu-imagem.css");
 @import url("menu/menu-titulo.css");
+@import url("menu/menuTitulo-biografia.css");
 @import url("menu/menu-lista.css");
 @import url("menu/menu-item.css");
 @import url("menu/menu-link.css");
@@ -14,12 +15,16 @@
 @import url("cartao.css");
 @import url("cartao/cartao-container.css");
 @import url("cartao/cartao-imagem.css");
+@import url("cartao/cartao-imagem-biografia.css");
 @import url("cartao/cartao-botao.css");
 @import url("cartao/cartao-titulo.css");
 @import url("cartao/cartao-descricao.css");
 @import url("cartao/cartao-link.css");
-
-@import url("catalogo/catalogo-container.css");
+@import url("descricao.css");
+@import url("descricao/descricao-biografia.css");
+@import url("descricao/descricao-titulo.css");
+@import url("descricao/descricao-texto.css");
+@import url("descricao/descricao-fonte.css");
 @import url("carrossel.css");
 @import url("carrossel/carrossel-titulo.css");
 @import url("carrossel/swiper.css");

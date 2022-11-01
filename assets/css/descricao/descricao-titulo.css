@@ -1,0 +1,7 @@
+.descricao__titulo {
+    padding: 1em 0;
+    color: var(--preto);
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
