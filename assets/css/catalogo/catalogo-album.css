@@ -1,4 +1,6 @@
 .catalogo__album {
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 40%;
     border-radius: 10px;
     padding: 0.3em;
