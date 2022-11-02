@@ -3,3 +3,10 @@
     width: 100%;
     padding: 1em 0;
 }
+
+
+@media screen and (min-width: 540px) {
+    .banner__titulo {
+        font-size: 1em
+    }
+}

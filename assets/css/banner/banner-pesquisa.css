@@ -10,8 +10,16 @@
 
 .banner__pesquisa::placeholder {
     text-align: center;
-    font-size: 14px;
+    font-family: var(--fonte-titulo);
+    font-size: 1em;
     text-align: center;
     color: var(--branco);
     background: rgba(0, 0, 0, 0.75);
+}
+
+
+@media screen and (min-width: 540px) {
+    .banner__pesquisa {
+        font-size: 1em;
+    }   
 }

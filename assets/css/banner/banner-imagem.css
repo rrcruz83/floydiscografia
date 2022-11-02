@@ -1,8 +1,9 @@
 .banner__imagem {
     background-image: url("../../img/banner01.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: 100vw auto;
     width: 100vw;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;

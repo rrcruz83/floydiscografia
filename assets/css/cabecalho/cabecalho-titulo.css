@@ -1,0 +1,14 @@
+.cabecalho__titulo {
+    display: none;
+}
+
+@media screen and (min-width: 540px) {
+    .cabecalho__titulo {
+        display: block;
+        font-family: var(--fonte-principal);
+        font-size: 2em;
+        color: var(--branco);
+        color: rgb(202, 33, 4);
+        text-shadow: 25px 5px 5px var(--cor-sombra);
+    }
+}

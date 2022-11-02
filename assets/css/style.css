@@ -1,5 +1,7 @@
 @import url("cabecalho.css");
 @import url("cabecalho/cabecalho-logo.css");
+@import url("cabecalho/cabecalho-imagem.css");
+@import url("cabecalho/cabecalho-titulo.css");
 @import url("menu/menu-check.css");
 @import url("menu/menu-imagem.css");
 @import url("menu/menu-titulo.css");
@@ -50,12 +52,17 @@
     --fonte-secundaria: 'Montserrat', sans-serif;
     --fonte-titulo: 'Stick No Bills', sans-serif;
     --background-secundario: #4e4c4c;
+    --cor-sombra: #8a7d7d;
     --branco: #FFFFFF;
     --preto: #000000;
 }
 
 header {
     font-family: var(--fonte-principal);
+}
+
+a {
+    text-decoration: none;
 }
 
 

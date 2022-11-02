@@ -19,9 +19,22 @@
     text-align: center;
     color: var(--branco);
     position: absolute;
+    padding: 0.2em 0;
     left: 50%;
     font-weight: 300;
     top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    font-size: 0.9em;
+
+}
+
+@media screen and (min-width: 540px) {
+    .swiper-title {
+        font-size: 1.3em;
+    }
+
+    .swiper-slide img {
+        height: 300px;
+    }
 }

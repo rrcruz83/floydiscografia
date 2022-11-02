@@ -3,4 +3,6 @@
     padding: 1em 0;
     font-family: var(--fonte-titulo);
     font-size: 1.5em;
+    width: 90%;
+    text-align: center;
 }
