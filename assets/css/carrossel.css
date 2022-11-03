@@ -7,11 +7,9 @@
 
 @media screen and (min-width: 1024px) {
     .carrossel__favoritos {
-        grid-column: 1 /span 2;
-        grid-row: 2;
+        width: 40vw;
     }
     .carrossel__membros {
-        grid-column: 1 /span 2;
-        grid-row: 3;
+        width: 40vw;
     }
 }
