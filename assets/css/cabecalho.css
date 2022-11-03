@@ -1,6 +1,5 @@
 .cabecalho {
-    background-image: url("../img/background.jpg");
-    background-size: 100vw 20vh;
+    background: var(--preto);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,4 +7,5 @@
     position: relative;
     border-bottom: 1px solid var(--branco);
 }
+
 

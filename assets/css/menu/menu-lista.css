@@ -1,8 +1,15 @@
 .menu__lista {
-    background-image: url("../../img/background.jpg");
+    background: var(--preto);
     z-index: 9999;
     display: none;
     padding: 1em;
     color: var(--branco);
 }
 
+@media  screen and (min-width: 1024px) {
+    .menu__lista {
+        display: block;
+        display: flex;
+        align-items: center;     
+    }
+}

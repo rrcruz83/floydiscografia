@@ -3,9 +3,14 @@
     background-repeat: no-repeat;
     background-size: 100vw auto;
     width: 100vw;
-    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (min-width: 540px) {
+    .banner__imagem {
+        height: 250px;
+    }
 }
