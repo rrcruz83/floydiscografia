@@ -1,0 +1,12 @@
+.banner__titulo {
+    text-shadow: 1px 1px rgba(0, 0, 0, 1);
+    width: 100%;
+    padding: 1em 0;
+}
+
+
+@media screen and (min-width: 540px) {
+    .banner__titulo {
+        font-size: 1em
+    }
+}

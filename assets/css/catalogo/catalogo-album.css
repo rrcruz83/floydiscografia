@@ -1,0 +1,12 @@
+.catalogo__album {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    border-radius: 10px;
+    transition: 1s;
+    margin: 0.5em;
+}
+
+.catalogo__album:hover {
+    scale: 1.1;
+}

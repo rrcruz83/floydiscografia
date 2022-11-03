@@ -2,53 +2,226 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Floydiscografia</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;600;700&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <header>
-            <div class="caixa-navegacao">
-
-                <div class="logo">
-                    <img class="img-logo" src="img/img-logo.jpeg" alt="Logo Floydiscografia">
-                    <h1 class="nome-logo">pink floyd</h1>
-                <div>
-
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="/Catalogo/catalogo.html">Catálogo</a></li>
-                    </ul>
-                </nav>
+            <div class="cabecalho">
+                <div class="cabecalho__logo">
+                    <img class="cabecalho__imagem" src="assets/img/img-logo.jpeg" alt="Logo Floydiscografia">
+                    <a href="index.html"><h1 class="cabecalho__titulo">Pink Floyd</h1></a>
+                </div>
+                
+                <input class="menu__check" type="checkbox" id="menu">
+                <label for="menu">
+                    <div class="menu__imagem"></div>
+                </label>
+                <ul class="menu__lista">
+                    <li class="menu__item">
+                        <a class="menu__link" href="catalogo.html">
+                            <h2 class="menu__titulo">Minha Coleção</h2>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunsoficiais.html">Oficiais</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunssoundtracks.html">Soundtracks</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunslive.html">Live</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunscoletaneas.html">Coletâneas</a>
+                    </li>
+                    
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunssolos.html">Solos</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunsboxsets.html">Box Sets</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunsroios.html">Roios e Bootlegs</a>
+                    </li>
+                </ul>
             </div>
-            
         </header>
-        <main>
-            <div>
-                <h1>"Welcome, my son!</h1>
-                <h1>Welcome to the machine!"</h1>
+        
+        <section class="banner">
+            <div class="banner__imagem">
+                <h1 class="banner__titulo">Floydiscografia</h1>
+                <input class="banner__pesquisa" type="search" placeholder="O que você procura?"> <!--Ainda não implementado-->
             </div>
-            <div class="mini-bio">
-                <p>A ideia desse site é catalogar toda a minha coleção da maior banda de rock psicodélico e progressivo da história, o <em>Pink Floyd</em>. Minha coleção vai desde <em>lembranças de shows, vinis, cds, dvds, fitas k7, livros e gravações raras de roios em mp3 (Record of Illegitimate/Indeterminate Origin)</em>.</p>
-                <h1>Biografia</h1>
-                <p>Pink Floyd foi uma banda britânica de rock formada em Londres em 1965. Ganhando seguidores como um grupo de rock psicodélico, eles se destacaram por suas composições longas, pela experimentação sonora, pelas letras filosóficas e pelas apresentações ao vivo criativas, o que levou a se tornarem uma banda líder do gênero do rock progressivo. Eles são um dos grupos mais bem-sucedidos comercialmente e influentes da história da música popular.</p>
-                <img class="img-bio1" src="img/sydbarret.jpg" alt="Syd Barret">
-                <p>O grupo foi fundado pelos estudantes Syd Barrett (guitarra, vocal), Nick Mason (bateria), Roger Waters (baixo, voz) e Richard Wright (teclados, voz). Sob a liderança de Barrett, eles lançaram dois singles e um álbum de estreia de sucesso, The Piper at the Gates of Dawn (1967). David Gilmour entrou para a banda como guitarrista e vocalista em dezembro de 1967; Barrett saiu em abril de 1968 devido à deterioração de sua saúde mental. Waters se tornou o letrista principal e líder temático, desenvolvendo os conceitos por trás dos álbuns The Dark Side of the Moon (1973), Wish You Were Here (1975), Animals (1977), The Wall (1979) e The Final Cut (1983). A banda também compôs várias trilhas sonoras para filmes.</p>
-                <p>Após tensões pessoais, Wright deixou o grupo em 1979, seguido por Waters em 1985. Gilmour e Mason continuaram a se apresentar como "Pink Floyd", reunidos mais tarde por Wright. Os três produziram mais dois álbuns — A Momentary Lapse of Reason (1987) e The Division Bell (1994) — e participaram de outros dois antes de entrar em um longo período de inatividade. Em 2005, todos, exceto Barrett, se reuniram para uma apresentação única no evento de conscientização global Live 8. Barrett morreu em 2006 e Wright em 2008. O último álbum de estúdio do grupo, The Endless River (2014), foi baseado em material inédito das sessões de gravação de The Division Bell.</p>
-                <img class="img-bio2" src="img/banner_pinkfloyd.jpg" alt="Roger/Nick/Gilmour/Wright">
-                <p>A banda foi um dos primeiros grupos psicodélicos britânicos e foi influente em gêneros como o rock progressivo e a música ambiente. Quatro álbuns chegaram ao topo das paradas estadunidenses ou britânicas; as músicas "See Emily Play" (1967) e "Another Brick in the Wall, Part 2" (1979) foram seus únicos singles entre os dez mais ouvidos em ambos os territórios. A banda foi introduzida no Rock and Roll Hall of Fame em 1996. Até 2013, eles haviam vendido mais de 250 milhões de discos em todo o mundo, com The Dark Side of the Moon e The Wall sendo dois dos álbuns mais vendidos de todos os tempos.</p>
-            </div>   
+        </section>
+        <main>
+
+            <div class="cartao cartao__welcome">
+                <div class="cartao__descricao">
+                    <div class="descricao">
+                        <h2 class="descricao__titulo">Welcome my son... Welcome to the machine! </h2>
+                        <p class="descricao__texto">A ideia desse site é catalogar toda a minha coleção da maior banda de rock psicodélico e progressivo da história, o <em>Pink Floyd</em>. Minha coleção vai desde <em>lembranças de shows, vinis, cds, dvds, fitas k7, livros e gravações raras de roios em mp3 (Record of Illegitimate/Indeterminate Origin)</em></p>
+                    </div>
+                </div>
+                <div class="cartao__botao">
+                    <a class="cartao__link" href="catalogo.html">Minha Coleção</a>
+                </div>
+            </div>
+
+            <section class="carrossel carrossel__favoritos">
+                <h2 class="carrossel__titulo">Favoritos da Coleção</h2>
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="assets/img/gates.jpeg" alt="Imagem do Album The Piper at the Gates of Dawn ">
+                                <h3 class="swiper-title">The Piper at the Gates of Dawn </h3>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="assets/img/livepompeii.jpeg" alt="Imagem do Ábum Live At Pompeii">
+                                <h3 class="swiper-title">Live At Pompeii</h3>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="assets/img/darkside.jpeg" alt="Imagem do Album Dark Side Of The Moon">
+                                <h3 class="swiper-title">Dark Side Of The Moon</h3>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="assets/img/wishyouwerehere.jpeg" alt="Imagem do Album Wish You Were Here">
+                                <h3 class="swiper-title">Wish You Were Here</h3>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="assets/img/animals.jpeg" alt="Imagem do Album Animals">
+                                <h3 class="swiper-title">Animals</h3>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="assets/img/divisionbell.jpeg" alt="Imagem do Division Bell">
+                                <h3 class="swiper-title">Division Bell</h3>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="assets/img/saucerful (band).jpeg" alt="Imagem do Album Live at the Roundhouse">
+                                <h3 class="swiper-title">Live at the Roundhouse</h3>
+                            </a>
+                        </div>
+                    </div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </section>
+
+            <div class="cartao cartao__biografia">
+                <div class="cartao__descricao">
+                    <div class="descricao-cartao">
+                        <h2 class="descricao__titulo">Biografia</h2>
+                        <p class="descricao__texto">Pink Floyd foi uma banda britânica de rock formada em Londres em 1965. Ganhando seguidores como um grupo de rock psicodélico ...</p>
+                    </div>
+                    <img class="cartao__imagem" src="assets/img/live8.jpeg" alt="Imagem do Pink Floyd">
+                </div>
+                <div class="cartao__botao">
+                    <a class="cartao__link" href="biografia.html">Leia mais</a>
+                </div>
+            </div>
+
+            <section class="carrossel carrossel__membros">
+                <h2 class="carrossel__titulo">The Floyds</h2>
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <a href="sydbarrett.html">
+                                <img src="assets/img/SydBarrett.jpeg" alt="Imagem de Syd Barrett">
+                                <h3 class="swiper-title">Syd Barrett</h3>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="rogerwaters.html">
+                                <img src="assets/img/RogerWaters.jpeg" alt="Imagem de Roger Waters">
+                                <h3 class="swiper-title">Roger Waters</h3>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="davidgilmour.html">
+                                <img src="assets/img/DavidGilmour.jpeg" alt="Imagem de David Gilmour">
+                                <h3 class="swiper-title">David Gilmour</h3>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="nickmason.html">
+                                <img src="assets/img/NickMason.jpeg" alt="Imagem de Nick Mason">
+                                <h3 class="swiper-title">Nick Mason</h3>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="richardwright.html">
+                                <img src="assets/img/richard.jpeg" alt="Imagem de Richard Wright">
+                                <h3 class="swiper-title">Richard Wright</h3>
+                            </a>
+                        </div>
+                    </div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+            </section>
         </main>
         <footer>
             <div class="rodape">
-                <img class="logo-rodape" src="img/pigs-logo.jpeg">
-                <p class="copyright">produzido por rr Dev&copy</p>
+                <img class="rodape__logo" src="assets/img/pigs-logo.jpeg">
+                <p class="rodape__copyright">produzido por rr Dev&copy</p>
             </div>
         </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script type="module">
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+          </script>
+          
     </body>
 </html>

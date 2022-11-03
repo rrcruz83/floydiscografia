@@ -1,0 +1,10 @@
+.catalogo__item {
+    padding: 0.8em;
+    width: 200px;
+    height: 200px;
+    transition: 1s; 
+}
+
+.catalogo__item:hover {
+    scale: 1.1;
+}
