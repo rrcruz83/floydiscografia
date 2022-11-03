@@ -1,10 +1,18 @@
 .catalogo__item {
     padding: 0.8em;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     transition: 1s; 
 }
 
 .catalogo__item:hover {
     scale: 1.1;
+}
+
+@media screen and (min-width: 540px) {
+    .catalogo__item {
+        width: 200px;
+        height: 200px;
+        font-size: 1em;
+    }
 }

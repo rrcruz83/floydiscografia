@@ -2,3 +2,10 @@
     width: 4em;
     height: 4em;
 }
+
+@media screen and (min-width: 1800px) {
+    .cabecalho__imagem {
+        width: 6em;
+        height: 6em;
+    }
+}

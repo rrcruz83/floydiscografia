@@ -1,7 +1,7 @@
 .catalogo__album {
     background-repeat: no-repeat;
     background-size: cover;
-    width: 200px;
+    width: 100px;
     border-radius: 10px;
     transition: 1s;
     margin: 0.5em;
@@ -9,4 +9,25 @@
 
 .catalogo__album:hover {
     scale: 1.1;
+}
+
+@media screen and (min-width: 540px) {
+    .catalogo__album {
+        width: 200px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .catalogo__album {
+        width: 250px;
+    }
+    
+}
+
+@media screen and (min-width: 1800px) {
+    .catalogo__album {
+        width: 300px;
+    }
+    
 }

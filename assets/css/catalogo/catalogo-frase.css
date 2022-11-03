@@ -3,6 +3,7 @@
     padding: 1em 0;
     font-family: var(--fonte-titulo);
     font-size: 1.5em;
-    width: 90%;
+    width: 100%;
+    margin: 0 0.1em;
     text-align: center;
 }
