@@ -1,14 +1,29 @@
 .cabecalho__titulo {
     display: none;
     color: var(--vermelho);
+    transition: 0.5s;
 }
 
 @media screen and (min-width: 540px) {
     .cabecalho__titulo {
         display: block;
         font-family: var(--fonte-principal);
-        font-size: 2em;
-
+        font-size: 1.5em;
         text-shadow: 25px 5px 5px var(--cor-sombra);
+    }
+    .cabecalho__titulo:hover {
+        color: var(--vermelho-click);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__titulo {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .cabecalho__titulo {
+        font-size: 2.5em;
     }
 }

@@ -4,3 +4,15 @@
     color: var(--branco);
     text-align: center;
 }
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .rodape__logo {
+        width: 10%;
+    }
+}

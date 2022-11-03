@@ -14,3 +14,15 @@
         height: 250px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .banner__imagem {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .banner__imagem {
+        height: 450px;
+    }
+}

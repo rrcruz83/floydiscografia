@@ -10,3 +10,15 @@
         font-size: 1em
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .banner__titulo {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .banner__titulo {
+        font-size: 3em;
+    }
+}

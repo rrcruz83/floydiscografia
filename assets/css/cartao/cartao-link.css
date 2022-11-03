@@ -4,4 +4,24 @@
     padding: 0.3em;
     text-decoration: none;
     text-transform: uppercase;
+    background-color: var(--preto);
+    text-align: center;
+    border-radius: 5px;
+    padding: 1em;
+    transition: 0.5s;
+}
+
+@media screen and (min-width: 540px) {
+    .cartao__link {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cartao__link:hover {
+        color: var(--preto);
+        background-color: var(--vermelho);
+        border: 1px solid var(--preto);
+    }
 }
