@@ -1,0 +1,10 @@
+.descricao__texto {
+    font-size: 14px;
+    text-align: justify;
+    padding: 0.2em;
+}
+
+.descricao__texto::first-letter {
+    font-size: 2em;
+    font-weight: 600;
+}

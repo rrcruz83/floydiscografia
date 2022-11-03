@@ -1,0 +1,13 @@
+.cartao__imagem {
+    width: 100px;
+    height: 150px;
+    margin: auto auto;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 540px) {
+    .cartao__imagem {
+        width: 250px;
+        height: 250px;
+    }
+}

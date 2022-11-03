@@ -1,0 +1,76 @@
+@import url("cabecalho.css");
+@import url("cabecalho/cabecalho-logo.css");
+@import url("cabecalho/cabecalho-imagem.css");
+@import url("cabecalho/cabecalho-titulo.css");
+@import url("menu/menu-check.css");
+@import url("menu/menu-imagem.css");
+@import url("menu/menu-titulo.css");
+@import url("menu/menuTitulo-biografia.css");
+@import url("menu/menu-lista.css");
+@import url("menu/menu-item.css");
+@import url("menu/menu-link.css");
+@import url("banner.css");
+@import url("banner/banner-imagem.css");
+@import url("banner/banner-titulo.css");
+@import url("banner/banner-pesquisa.css");
+@import url("cartao.css");
+@import url("cartao/cartao-container.css");
+@import url("cartao/cartao-imagem.css");
+@import url("cartao/cartao-imagem-biografia.css");
+@import url("cartao/cartao-botao.css");
+@import url("cartao/cartao-titulo.css");
+@import url("cartao/cartao-descricao.css");
+@import url("cartao/cartao-link.css");
+@import url("descricao.css");
+@import url("descricao/descricao-cartao.css");
+@import url("descricao/descricao-titulo.css");
+@import url("descricao/descricao-texto.css");
+@import url("descricao/descricao-fonte.css");
+@import url("carrossel.css");
+@import url("carrossel/carrossel-titulo.css");
+@import url("carrossel/swiper.css");
+@import url("catalogo.css");
+@import url("catalogo/catalogo-frase.css");
+@import url("catalogo/catalogo-lista.css");
+@import url("catalogo/catalogo-item.css");
+@import url("catalogo/catalogo-link.css");
+@import url("catalogo/catalogo-imagem.css");
+@import url("catalogo/catalogo-titulo.css");
+@import url("catalogo/catalogo-album.css");
+
+@import url("rodape.css");
+@import url("rodape/rodape-logo.css");
+@import url("rodape/rodape-copyright.css");
+
+@font-face {
+    font-family: pinkfloyd;
+    src: url(../fonts/pinkfloyd.ttf);
+}
+
+:root {
+    --fonte-principal: pinkfloyd, 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+    --fonte-titulo: 'Stick No Bills', sans-serif;
+    --background-secundario: #4e4c4c;
+    --cor-sombra: #8a7d7d;
+    --branco: #FFFFFF;
+    --vermelho: #b40303;
+    --preto: #000000;
+}
+
+header {
+    font-family: var(--fonte-principal);
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: auto auto auto;
+    }
+    
+}

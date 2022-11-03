@@ -1,0 +1,11 @@
+.menu__titulo {
+    font-weight: 700;
+    margin: 1em 0 0 0;
+    text-decoration: underline;
+}
+
+@media  screen and (min-width: 1024px) {
+    .menu__titulo {
+        display: none;
+    }
+}

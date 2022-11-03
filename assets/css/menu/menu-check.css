@@ -1,0 +1,10 @@
+.menu__check {
+    display: none;
+}
+
+.menu__check:checked ~ .menu__lista {
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 0;
+}

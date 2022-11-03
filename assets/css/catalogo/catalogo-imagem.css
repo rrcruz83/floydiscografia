@@ -1,0 +1,59 @@
+.catalogo__imagem {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalogo__imagem-oficiais {
+    background-image: url(../../img/albunsoficiais.jpeg);
+    
+}
+
+.catalogo__imagem-live {
+    background-image: url(../../img/albunslive.jpeg);
+}
+
+.catalogo__imagem-coletaneas {
+    background-image: url(../../img/albunscoletaneas.jpeg);
+}
+
+.catalogo__imagem-solos {
+    background-image: url(../../img/albunssolos.jpeg);
+}
+
+.catalogo__imagem-soundtracks {
+    background-image: url(../../img/albunssoundtracks.jpeg);
+}
+
+.catalogo__imagem-boxsets {
+    background-image: url(../../img/albunsbox.jpeg);
+}
+
+.catalogo__imagem-roios {
+    background-image: url(../../img/albunsroios.jpeg);
+}
+
+.catalogo__imagem-sydbarrett {
+    background-image: url(../../img/sydbarret.jpg);
+}
+
+.catalogo__imagem-rogerwaters {
+    background-image: url(../../img/RogerWaters.jpeg);
+}
+
+.catalogo__imagem-davidgilmour {
+    background-image: url(../../img/DavidGilmour.jpeg);
+}
+
+.catalogo__imagem-nickmason {
+    background-image: url(../../img/NickMason.jpeg);
+}
+
+.catalogo__imagem-richardwright {
+    background-image: url(../../img/richard.jpeg);
+}

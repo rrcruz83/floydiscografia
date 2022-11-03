@@ -1,0 +1,11 @@
+.rodape__copyright {
+    color: var(--branco);
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+@media screen and (min-width: 540px) {
+    .rodape__copyright {
+        font-size: 1.5em;
+    }
+}

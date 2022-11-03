@@ -1,0 +1,10 @@
+.menu__item {
+    padding: 1em;
+    font-size: 1em;
+}
+
+@media screen and (min-width: 540px) {
+    .menu__lista {
+        font-size: 1.1em;      
+    }
+}

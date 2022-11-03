@@ -1,0 +1,15 @@
+.descricao__titulo {
+    padding: 1em 0;
+    color: var(--preto);
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--fonte-titulo);
+    font-size: 1.5em;
+}
+
+@media screen and (min-width: 540px) {
+    .descricao__titulo {
+        font-size: 2em;
+    }
+}

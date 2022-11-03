@@ -1,0 +1,16 @@
+.banner__imagem {
+    background-image: url("../../img/banner01.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 540px) {
+    .banner__imagem {
+        height: 250px;
+    }
+}
