@@ -41,9 +41,3 @@
         height: 300px;
     }
 }
-
-@media screen and (min-width: 1024px) {
-    .swiper {
-        width: 60%;
-    }
-}

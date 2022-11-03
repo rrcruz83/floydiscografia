@@ -12,12 +12,9 @@
 
 @media screen and (min-width: 1024px) {
     .cartao__welcome {
-        grid-column: 1;
-        grid-row: 1;
+       width: 45vw;
     }
     .cartao__biografia {
-        grid-column: 2;
-        grid-row: 1;
-        width: 50vw;
+        width: 45vw;
     }
 }
