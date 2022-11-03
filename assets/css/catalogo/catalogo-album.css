@@ -17,3 +17,17 @@
     }
     
 }
+
+@media screen and (min-width: 1024px) {
+    .catalogo__album {
+        width: 250px;
+    }
+    
+}
+
+@media screen and (min-width: 1800px) {
+    .catalogo__album {
+        width: 300px;
+    }
+    
+}
