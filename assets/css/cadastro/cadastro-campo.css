@@ -1,0 +1,19 @@
+.cadastro__campo {
+    font-size: 1em;
+}
+
+.cadastro__campo-boxintegrantes {
+    height: auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .cadastro__campo {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .cadastro__campo {
+        font-size: 1em;
+    }
+}

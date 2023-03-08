@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Floydiscografia - Cadastro</title>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;600;700&display=swap" rel="stylesheet">  
+    </head>
+    <body>
+        <header>
+            <div class="cabecalho">
+                <div class="cabecalho__logo">
+                    <img class="cabecalho__imagem" src="assets/img/img-logo.jpeg" alt="Logo Floydiscografia">
+                    <a href="index.html"><h1 class="cabecalho__titulo">Pink Floyd</h1></a>
+                </div>
+
+                <input class="menu__check" type="checkbox" id="menu">
+                <label for="menu">
+                    <div class="menu__imagem"></div>
+                </label>
+                <ul class="menu__lista">
+                    <li class="menu__item">
+                        <a class="menu__link" href="index.html">Home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="catalogo.html">
+                            <h2 class="menu__titulo">Minha Coleção</h2>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunsoficiais.html">Oficiais</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunssoundtracks.html">Soundtracks</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunslive.html">Live</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunscoletaneas.html">Coletâneas</a>
+                    </li>
+                    
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunssolos.html">Solos</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunsboxsets.html">Box Sets</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="albunsroios.html">Roios e Bootlegs</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <div class="cartao">
+                <form class="cadastro">
+                    <h2 class="cadastro__titulo">Cadastro de Álbuns</h2>
+                    <div class="cadastro__linha cadastro__linha-categoria">
+                        <label class="cadastro__label" for="categoria">Categoria</label>
+                        <select class="cadastro__campo" name="categoria" id="categoria">
+                            <option value="oficiais">Oficiais</option>
+                            <option value="live">Live</option>
+                            <option value="coletaneas">Coletâneas</option>
+                            <optgroup label="Solos">
+                                <option value="opt-barrett">Syd Barret</option>
+                                <option value="opt-waters">Roger Waters</option>
+                                <option value="opt-mason">Nick Mason</option>
+                                <option value="opt-wright">Richard Wright</option>
+                                <option value="opt-gilmour">David Gilmour</option>
+                            </optgroup>
+                            <option value="soundtracks">Soundtracks</option>
+                            <option value="boxsets">Roios e Bootlegs</option>
+                        </select>
+                    </div>
+                    <div class="cadastro__linha cadastro__linha-formato">
+                        <label class="cadastro__label" for="formato">Formato</label>
+                        <select class="cadastro__campo" name="formato" id="formato">
+                            <option value="lp">LP</option>
+                            <option value="cd">CD</option>
+                            <option value="mp3">MP3</option>
+                            <option value="k7">K7</option>
+                            <option value="dvd">DVD</option>
+                            <option value="bluray">Blu-ray</option>
+                            <option value="k7">VHS</option>
+                            <option value="livro">Livro</option>
+                            <option value="lembranca">Lembrança</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </div>
+                    <div class="cadastro__linha cadastro__linha-cover">
+                        <label class="cadastro__label" for="cover">Cover</label>
+                        <input class="cadastro__campo" name="cover" id="cover" type="file">
+                    </div>
+                    <div class="cadastro__linha cadastro__linha-nome">
+                        <label class="cadastro__label" for="nome">Nome</label>
+                        <input class="cadastro__campo" name="nome" id="nome" type="text">
+                    </div>
+                    
+                    <div class="cadastro__linha cadastro__linha-lancamento">
+                        <label class="cadastro__label" for="lancamento">Ano de Lançamento</label>
+                        <input class="cadastro__campo" name="lancamento" id="lancamento" type="date">
+                    </div>
+                    <div class="cadastro__linha cadastro__linha-gravacao">
+                        <label class="cadastro__label" for="ano-gravacao">Ano de Gravação</label>
+                        <input class="cadastro__campo" name="ano-gravacao" id="ano-gravacao" type="date">
+                    </div>
+                    <div class="cadastro__linha cadastro__linha-local">
+                        <label class="cadastro__label" for="local-gravacao">Local de Gravação</label>
+                        <input class="cadastro__campo" name="local-gravacao" id="local-gravacao" type="date">
+                    </div>
+                    <div class="cadastro__linha cadastro__linha-integrantes">
+                        <label class="cadastro__label" for="banda">Integrantes</label>
+                        <select class="cadastro__campo cadastro__campo-boxintegrantes" name="integrantes" id="integrantes" multiple>
+                          <option value="banda-barrett">Syd Barrett</option>
+                          <option value="banda-waters">Roger Waters</option>
+                          <option value="banda-mason">Nick Mason</option>
+                          <option value="banda-wright">Richard Wright</option>
+                          <option value="banda-gilmour">David Gilmour</option>
+                        </select> 
+                    </div>
+                    <div class="cadastro__linha cadastro__linha-descricao">
+                        <label class="cadastro__label" for="descricao">Descrição</label>
+                        <textarea class="cadastro__campo" name="descricao" id="descricao" cols="0" rows="20"></textarea>
+                    </div>
+                    <div class="cadastro__linha cadastro__linha-botao">
+                        <button class="cadastro__label" name="botao-salvar" id="botao-salvar">Salvar</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div class="rodape">
+                <img class="rodape__logo" src="assets/img/pigs-logo.jpeg">
+                <p class="rodape__copyright">produzido por rr Dev&copy</p>
+            </div>
+        </footer>
+    </body>
+</html>

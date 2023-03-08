@@ -37,10 +37,14 @@
 @import url("catalogo/catalogo-imagem.css");
 @import url("catalogo/catalogo-titulo.css");
 @import url("catalogo/catalogo-album.css");
-
 @import url("rodape.css");
 @import url("rodape/rodape-logo.css");
 @import url("rodape/rodape-copyright.css");
+@import url("cadastro.css");
+@import url("cadastro/cadastro-titulo.css");
+@import url("cadastro/cadastro-linha.css");
+@import url("cadastro/cadastro-label.css");
+@import url("cadastro/cadastro-campo.css");
 
 @font-face {
     font-family: pinkfloyd;
