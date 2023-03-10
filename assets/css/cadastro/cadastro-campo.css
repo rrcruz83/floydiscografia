@@ -3,7 +3,7 @@
 }
 
 .cadastro__campo-boxintegrantes {
-    height: auto;
+    height: 150px;
 }
 
 @media screen and (min-width: 1024px) {
