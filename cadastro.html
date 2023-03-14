@@ -61,11 +61,12 @@
 
         <main>
             <div class="cartao">
-                <form class="cadastro">
-                    <h2 class="cadastro__titulo">Cadastro de Álbuns</h2>
+                <h2 class="cadastro__titulo">Cadastro de Álbuns</h2>
+                <form action="" class="cadastro" id="cadastro-form">
                     <div class="cadastro__linha cadastro__linha-categoria">
                         <label class="cadastro__label" for="categoria">Categoria</label>
-                        <select class="cadastro__campo" name="categoria" id="categoria">
+                        <select class="cadastro__campo" name="categoria" id="categoria" data-tipo="categoria">
+                            <option value="">Selecione uma categoria</option>
                             <option value="oficiais">Oficiais</option>
                             <option value="live">Live</option>
                             <option value="coletaneas">Coletâneas</option>
@@ -82,7 +83,8 @@
                     </div>
                     <div class="cadastro__linha cadastro__linha-formato">
                         <label class="cadastro__label" for="formato">Formato</label>
-                        <select class="cadastro__campo" name="formato" id="formato">
+                        <select class="cadastro__campo" name="formato" id="formato" data-tipo="formato">
+                            <option value="">Selecione o formato</option>
                             <option value="lp">LP</option>
                             <option value="cd">CD</option>
                             <option value="mp3">MP3</option>
@@ -97,28 +99,28 @@
                     </div>
                     <div class="cadastro__linha cadastro__linha-cover">
                         <label class="cadastro__label" for="cover">Cover</label>
-                        <input class="cadastro__campo" name="cover" id="cover" type="file">
+                        <input class="cadastro__campo" name="cover" id="cover" type="file" data-tipo="cover">
                     </div>
                     <div class="cadastro__linha cadastro__linha-nome">
                         <label class="cadastro__label" for="nome">Nome</label>
-                        <input class="cadastro__campo" name="nome" id="nome" type="text">
+                        <input class="cadastro__campo" name="nome" id="nome" type="text" data-tipo="nome">
                     </div>
                     
                     <div class="cadastro__linha cadastro__linha-lancamento">
                         <label class="cadastro__label" for="lancamento">Ano de Lançamento</label>
-                        <input class="cadastro__campo" name="lancamento" id="lancamento" type="date">
+                        <input class="cadastro__campo" name="ano-lancamento" id="ano-lancamento" type="date" data-tipo="ano-lancamento">
                     </div>
                     <div class="cadastro__linha cadastro__linha-gravacao">
                         <label class="cadastro__label" for="ano-gravacao">Ano de Gravação</label>
-                        <input class="cadastro__campo" name="ano-gravacao" id="ano-gravacao" type="date">
+                        <input class="cadastro__campo" name="ano-gravacao" id="ano-gravacao" type="date" data-tipo="ano-gravacao">
                     </div>
                     <div class="cadastro__linha cadastro__linha-local">
                         <label class="cadastro__label" for="local-gravacao">Local de Gravação</label>
-                        <input class="cadastro__campo" name="local-gravacao" id="local-gravacao" type="text">
+                        <input class="cadastro__campo" name="local-gravacao" id="local-gravacao" type="text" data-tipo="local-gravacao">
                     </div>
                     <div class="cadastro__linha cadastro__linha-integrantes">
                         <label class="cadastro__label" for="banda">Integrantes</label>
-                        <select class="cadastro__campo cadastro__campo-boxintegrantes" name="integrantes" id="integrantes" multiple>
+                        <select class="cadastro__campo cadastro__campo-boxintegrantes" name="integrantes" id="integrantes" data-tipo="integrantes" multiple>
                           <option value="banda-barrett">Syd Barrett</option>
                           <option value="banda-waters">Roger Waters</option>
                           <option value="banda-mason">Nick Mason</option>
@@ -128,10 +130,10 @@
                     </div>
                     <div class="cadastro__linha cadastro__linha-descricao">
                         <label class="cadastro__label" for="descricao">Descrição</label>
-                        <textarea class="cadastro__campo" name="descricao" id="descricao" cols="0" rows="20"></textarea>
+                        <textarea class="cadastro__campo" name="descricao" id="descricao" data-tipo="descricao" cols="0" rows="20"></textarea>
                     </div>
                     <div class="cadastro__linha cadastro__linha-botao">
-                        <button class="cadastro__label" name="botao-salvar" id="botao-salvar">Salvar</button>
+                        <input class="cadastro__label" name="botao-salvar" id="botao-salvar" type="submit" value="Salvar" data-tipo="btn-salvar"></input>
                     </div>
                 </form>
             </div>
@@ -139,9 +141,10 @@
 
         <footer>
             <div class="rodape">
-                <img class="rodape__logo" src="assets/img/pigs-logo.jpeg">
+                <img class="rodape__logo" id="rodape-logo" src="assets/img/pigs-logo.jpeg">
                 <p class="rodape__copyright">produzido por rr Dev&copy</p>
             </div>
         </footer>
     </body>
+    <script src="js/main.js"></script>
 </html>
