@@ -45,6 +45,9 @@
 @import url("cadastro/cadastro-linha.css");
 @import url("cadastro/cadastro-label.css");
 @import url("cadastro/cadastro-campo.css");
+@import url("grid-info/grid-info-album.css");
+@import url("grid-info/grid-info-lista.css");
+@import url("grid-info/grid-info-item.css");
 
 @font-face {
     font-family: pinkfloyd;
