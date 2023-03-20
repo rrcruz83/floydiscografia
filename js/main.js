@@ -31,6 +31,7 @@ function salvaCadastro(evento) {
     }
     lista.push(itemNovo);
     localStorage.setItem("lista", JSON.stringify(lista));
+    location.reload();
 }
 
 botao_exclusao.addEventListener("click", () => {
