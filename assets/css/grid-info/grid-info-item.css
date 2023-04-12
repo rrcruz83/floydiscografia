@@ -6,6 +6,10 @@
     order: -1;
 }
 
+.grid__info__item:nth-child(9) {
+    order: -1;
+}
+
 
 .grid__info__item__nome {
     font-size: 1em;

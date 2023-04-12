@@ -11,6 +11,9 @@ function salvaCadastro(evento) {
     const integrantes = evento.target.elements["integrantes"].options
     const listaIntegrantes = [];
 
+    const dataLancamento =  moment(evento.target.elements["ano-lancamento"].value).format('DD-MM-YYYY');
+    const dataGravacao =  moment(evento.target.elements["ano-gravacao"].value).format('DD-MM-YYYY');
+    
     for (let i = 0; i < integrantes.length; i++) {
 
         if(integrantes[i].selected) {
@@ -24,10 +27,10 @@ function salvaCadastro(evento) {
        "Capa": evento.target.elements["cover"].value,
        "Nome": evento.target.elements["nome"].value,
        "Local de Gravação": evento.target.elements["local-gravacao"].value,
-       "Ano de Gravação": evento.target.elements["ano-gravacao"].value,
+       "Ano de Gravação": dataGravacao,
        "Integrantes": listaIntegrantes,
        "Descrição": evento.target.elements["descricao"].value,
-       "Lançamento": evento.target.elements["ano-lancamento"].value
+       "Lançamento": dataLancamento
     }
     lista.push(itemNovo);
     localStorage.setItem("lista", JSON.stringify(lista));
