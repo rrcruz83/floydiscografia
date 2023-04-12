@@ -1,0 +1,65 @@
+.cadastro__linha {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .cadastro__linha {
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cadastro__linha-categoria {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .cadastro__linha-formato {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .cadastro__linha-nome {
+        grid-column: 1 /span 3;
+        grid-row: 3;
+    }
+    
+    .cadastro__linha-cover {
+        grid-column: 3;
+        grid-row: 2;
+    }
+    
+    .cadastro__linha-local {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    
+    .cadastro__linha-gravacao {
+        grid-column: 2;
+        grid-row: 4;
+    }
+    
+    .cadastro__linha-lancamento {
+        grid-column: 3;
+        grid-row: 4;
+    }
+    
+    .cadastro__linha-integrantes {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    
+    .cadastro__linha-descricao {
+        grid-column: 2 /span 3;
+        grid-row: 5;
+    }
+    
+    .cadastro__linha-botao {
+        grid-column: 3;
+        grid-row: 6;
+    }
+    
+}

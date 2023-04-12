@@ -1,0 +1,22 @@
+.cartao {
+    font-size: 1.2em;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .cartao {
+        font-size: 1.5em;
+    }
+
+    .cadastro {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .cartao {
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,9 @@
+
+
+@media screen and (min-width: 1024px) {
+
+    .grid__info__album {
+        margin: 20px;
+        padding: 15px;
+    }
+}
