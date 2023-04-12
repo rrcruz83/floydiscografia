@@ -1,0 +1,23 @@
+.cadastro__titulo {
+    padding: 1em 0;
+    color: var(--preto);
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--fonte-titulo);
+    font-size: 2.5em;
+}
+
+@media screen and (min-width: 1024px) {
+    .cadastro__titulo {
+        grid-column: 1 /span 3;
+        grid-row: 1;
+        padding: 1em 0;
+        color: var(--preto);
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: var(--fonte-titulo);
+        font-size: 2.5em;
+    }
+}

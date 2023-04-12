@@ -1,0 +1,21 @@
+
+.cadastro__label {
+    padding: 1em 0;
+    color: var(--preto);
+    font-weight: 700;
+    font-family: var(--fonte-titulo);
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .cadastro__label {
+        padding: 1em 0;
+        color: var(--preto);
+        font-weight: 700;
+        font-family: var(--fonte-titulo);
+        font-size: 1.3em;
+        text-transform: uppercase;
+    }
+}
